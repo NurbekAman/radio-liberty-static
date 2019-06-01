@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/radio-library.css">
+    <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+           <p class="title">
+               Radio liberty
+           </p>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-image">
+                <img src="./assets/background.jpg" class="image">
+            </div>
+            <div class="tag-container">
+                <div class="tag-content">
+                    <div class="tag-header">
+                        <h2 class="tag-title">
+                            Tags
+                        </h2>
+                    </div>
+                    <ul id="tag-list" class="tag-list">
+                    </ul>
+                </div>
+            </div>
+            <div class="tag-add">
+                <div class="tag-control-list">
+                    <input placeholder="Enter tag" type="text" name="tag-input" id="tag-input" class="input" />
+                    <input type="button" value="add tag" class="tag-button"/>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="./scripts/href-helper.js"></script>
+    <script type="text/javascript" src="./scripts/constant.js"></script>
+    <script type="text/javascript" src="./scripts/tag-list.js"></script>
+    <script type="text/javascript" src="./scripts/tag-control.js"></script>
+</body>
+</html>
